@@ -8,7 +8,7 @@ import (
 func RegisterApiRoutes(router *gin.Engine) {
 	// Get methods
 	router.GET("/api", handlers.GetApi)
-	router.GET("/api2", handlers.GetApi)
+	router.GET("/api3", handlers.GetApi)
 
 }
 
